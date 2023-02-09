@@ -130,12 +130,12 @@ const Home: NextPage = () => {
           most of your trip.
         </p>
         <div className="max-w-xl w-full px-6">
-          <div className="flex mt-10 items-center space-x-3">
-            <span className="text-white bg-black rounded-full w-8 h-8 text-center flex items-center justify-center">
+          <div className="flex mt-10 items-center align-items-center">
+            <span className="text-white bg-black rounded-full w-8 h-8 text-center flex items-center justify-center leading-zero p-0">
               1
             </span>
             <p className="ml-3 text-left text-base">
-              Type the City and Country you want to visit.
+              Type the name of the city and country.
             </p>
           </div>
           <textarea
@@ -154,8 +154,8 @@ const Home: NextPage = () => {
               "Be specific and include the country, for example: 'Paris, France'."
             }
           />
-          <div className="flex mt-5 items-center space-x-3">
-            <span className="text-white bg-black rounded-full w-8 h-8 text-center flex items-center justify-center">
+          <div className="flex mt-10 items-center align-items-center">
+            <span className="text-white bg-black rounded-full w-8 h-8 text-center flex items-center justify-center leading-zero p-0">
               2
             </span>
             <p className="ml-3 text-left text-base">Select number of days.</p>
